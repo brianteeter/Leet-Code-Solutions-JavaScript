@@ -1,0 +1,14 @@
+{
+  "name": "leetcodesolutions",
+  "version": "1.0.0",
+  "description": "LeetCode Solutions Workspace",
+  "main": "1_TwoSum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Teeter",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
