@@ -12,4 +12,10 @@ I'm a fan of JavaScript in general, so a lot of solutions will be written in Jav
 
 Eventually I'll get _fancy_ and start to use some Java, C#, C++, Go, Rust, Python, or whatever in some of my solutions.  We'll see.  
 
+## How to Use
+
+- Make sure you have Node 10+ installed
+- Clone this project
+- Run: `npm i`
+- Run: `mocha` to run tests
 
