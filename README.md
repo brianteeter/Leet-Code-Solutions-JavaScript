@@ -19,3 +19,9 @@ Eventually I'll get _fancy_ and start to use some Java, C#, C++, Go, Rust, Pytho
 - Run: `npm i`
 - Run: `mocha` to run tests
 
+## Why?
+
+LeetCode is neat and their interface is decent, but I like using a real IDE to write software.  So I do, then I copy it up to LeetCode and submit.  
+
+Also, maybe if I make this public someone can benefit from sharing these solutions.  
+
