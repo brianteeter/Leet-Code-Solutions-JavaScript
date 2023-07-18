@@ -25,7 +25,30 @@ var rotate = function(nums, k)
     return nums;
 };
 
-
+/**
+ * This function below was my original solution but it was too slow on large
+ * sets of numbers, which is odd, since it uses the most straightforward
+ * built in array functions.
+ * 
+ * @param nums
+ * @param k
+ */
+var rotateTooSlow = function(nums, k)
+{
+    // Check inputs, nothing needs to be done in these cases:
+    if (k == 0 || nums == undefined || nums.length <= 0)
+    {
+        return;
+    }
+    
+    let next_value = undefined;
+    
+    // To rotate pop from the end push (unshift) to the start:
+    for (let i = 0; i < k; i++)
+    {
+        nums.unshift(nums.pop());
+    }
+};
 
 describe('189_RotateArray.js', function ()
 {
