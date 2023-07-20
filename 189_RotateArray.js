@@ -29,7 +29,7 @@ var rotate = function(nums, k)
  * This function below was my original solution but it was too slow on large
  * sets of numbers, which is odd, since it uses the most straightforward
  * built in array functions.
- * 
+ *
  * @param nums
  * @param k
  */
