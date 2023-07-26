@@ -1,4 +1,4 @@
-var assert = require('assert');
+const assert = require('assert');
 
 /**
  * Given an integer array nums, rotate the array to the right by k steps,

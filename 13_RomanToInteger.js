@@ -1,4 +1,4 @@
-var assert = require('assert');
+const assert = require('assert');
 
 /**
  * Given a roman numeral, convert it to an integer.

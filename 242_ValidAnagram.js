@@ -1,4 +1,4 @@
-var assert = require('assert');
+const assert = require('assert');
 
 function deepEqual(object1, object2)
 {
