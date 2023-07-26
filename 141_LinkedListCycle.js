@@ -36,7 +36,7 @@ var hasCycle = function(head)
     // ------------------------------------------------------------------------
     // Store references to the nodes we've seen.
     // ------------------------------------------------------------------------
-    let seen_nodes = [];
+    let seen_nodes = new Set();
     
     // ------------------------------------------------------------------------
     // Scan through the list and if we find a node we've seen
@@ -45,12 +45,12 @@ var hasCycle = function(head)
     while (current_node.next != undefined && current_node.next != null)
     {
         
-        if (seen_nodes.includes(current_node.next) == true)
+        if (seen_nodes.has(current_node.next) == true)
         {
             return true;
         }
         
-        seen_nodes.push(current_node.next);
+        seen_nodes.add(current_node.next);
         
         current_node = current_node.next;
     }
