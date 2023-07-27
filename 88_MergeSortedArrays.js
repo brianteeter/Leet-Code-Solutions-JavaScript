@@ -37,9 +37,6 @@ var merge = function(nums1, m, nums2, n)
         }
     });
     
-    console.log("Results nums1: " + JSON.stringify(nums1));
-    
-    
 };
 
 
@@ -48,7 +45,6 @@ describe('88_MergeSortedArrays.js', function ()
     it('should output to console Results nums1: [1,2,3,2,5,6]', function ()
     {
         var results = merge([1,2,3,0,0,0], 3, [2,5,6], 3);
-        console.log("Results: " + JSON.stringify(results));
         
         // Does not return a result, based on description of problem, view output
         assert.deepEqual(undefined, results);

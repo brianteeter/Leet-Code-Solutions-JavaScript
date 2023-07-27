@@ -23,7 +23,6 @@ var maxProfit = function(prices)
     {
         min_buy = Math.min(min_buy, prices[i]);
         max_profit = Math.max(prices[i] - min_buy, max_profit);
-        
     }
     
     return max_profit;
@@ -37,7 +36,6 @@ describe('121_BestTimeToBuyStock.js', function ()
     it('should return 5', function ()
     {
         let results = maxProfit([7,1,5,3,6,4]);
-        console.log("Results: " + results);
         assert.deepEqual(5, results);
     });
     

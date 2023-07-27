@@ -26,7 +26,6 @@ var lengthOfLastWord = function(s) {
         return element !== '';
     });
     
-    console.log(JSON.stringify(filteredArr));
     return filteredArr[filteredArr.length - 1].length;
 };
 

@@ -45,8 +45,6 @@ describe('1_TwoSum.js', function ()
         let target = 9;
     
         var results = twoSum(nums, target);
-        console.log("Results: " + results);
-        
         assert.deepEqual([0, 1], results);
     });
 });

@@ -17,7 +17,6 @@ var removeElement = function(nums, val)
             k++;
         }
     }
-    console.log(JSON.stringify(nums));
     return k;
 };
 
@@ -27,8 +26,6 @@ describe('27_RemoveElement.js', function ()
     it('should remove 3s from [3,2,2,3]]', function ()
     {
         let result = removeElement([3,2,2,3], 3);
-        console.log("Result: " + result);
-        
         assert.deepEqual(2, result);
     });
 });

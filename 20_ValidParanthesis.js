@@ -114,24 +114,18 @@ describe('20_ValidParanthesis.js', function ()
     it('should return true for input {}', function ()
     {
         var results = isValid("{}");
-        console.log("Results: " + results);
-        
         assert.equal(results, true);
     });
     
     it('should return false for input ][', function ()
     {
         var results = isValid("][");
-        console.log("Results: " + results);
-        
         assert.equal(results, false);
     });
     
     it('should return true for input {[]}', function ()
     {
         var results = isValid("{[]}");
-        console.log("Results: " + results);
-        
         assert.equal(results, true);
     });
 });

@@ -37,28 +37,24 @@ describe('3_LongestSubstrWithoutRepeats.js', function ()
     it('should return 3', function ()
     {
         let results = lengthOfLongestSubstring("abcbcbb");
-        console.log("Results: " + results);
         assert.deepEqual(3, results);
     });
     
     it('should return 1', function ()
     {
         let results = lengthOfLongestSubstring("bbbbb");
-        console.log("Results: " + results);
         assert.deepEqual(1, results);
     });
     
     it('should return 3', function ()
     {
         let results = lengthOfLongestSubstring("pwwkew");
-        console.log("Results: " + results);
         assert.deepEqual(3, results);
     });
     
     it('should return 3', function ()
     {
         let results = lengthOfLongestSubstring("dvdf");
-        console.log("Results: " + results);
         assert.deepEqual(3, results);
     });
     
