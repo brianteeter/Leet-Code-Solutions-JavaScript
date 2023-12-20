@@ -1,4 +1,4 @@
-# LeetCodeSolutions:
+# Leet-Code-Solutions-JavaScript:
 
 The purpose of this repo is to have a nice place where I can work on and share solutions to LeetCode problems.  
 
@@ -11,6 +11,8 @@ I feel like LeetCode is not a terribly useful measure of a developer's ability. 
 I'm a fan of JavaScript in general, so a lot of solutions will be written in JavaScript.  Where the solution is in JavaScript I'm using Mocha for my local testing so I can do some test cases before I submit then to LeetCode.  I also use WebStorm, because its awesome.  I've provided the /.idea/ files in this repo so anyone else who uses WebStorm can just clone and go.
 
 Eventually I'll get _fancy_ and start to use some Java, C#, C++, Go, Rust, Python, or whatever in some of my solutions.  We'll see.  
+
+I have another project with Leet Code solutions in Java, check it out here:  https://github.com/brianteeter/Leet-Code-Solutions-Java
 
 ## How to Use
 
